@@ -16,7 +16,7 @@ public class ServicoDeEntrega {
         this.componentesDoCusto.add(item);
     }
 
-    // Calcula o custo total para uma determinada distância [cite: 109]
+    // Calcula o custo total para uma determinada distância 
     public double calcularCustoTotal(double distanciaEmKm) {
         double custoTotal = 0.0;
         for (Fretavel item : componentesDoCusto) {
