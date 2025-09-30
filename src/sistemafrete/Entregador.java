@@ -1,6 +1,6 @@
 package sistemafrete;
 
 // Entregador.java
-public class Entregador { // [cite: 103]
+public class Entregador { // 
     // Classe base, pode ter atributos como nome, etc.
 }
