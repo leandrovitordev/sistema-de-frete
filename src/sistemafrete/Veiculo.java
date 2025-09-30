@@ -1,7 +1,7 @@
 package sistemafrete;
 
 // Veiculo.java
-public abstract class Veiculo { // [cite: 97]
+public abstract class Veiculo { 
     private String placa;
     private int ano;
 
