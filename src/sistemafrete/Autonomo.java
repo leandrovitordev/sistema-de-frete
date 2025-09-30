@@ -1,11 +1,11 @@
 package sistemafrete;
 
 // Autonomo.java
-public class Autonomo extends Entregador implements Fretavel { // [cite: 105, 106]
+public class Autonomo extends Entregador implements Fretavel { 
 
     @Override
     public double calcularCustoFrete(double distanciaEmKm) {
-        // Custo de um autônomo é distanciaEmKm * 0.95 [cite: 105]
+        // Custo de um autônomo é distanciaEmKm * 0.95 
         return distanciaEmKm * 0.95;
     }
 }
